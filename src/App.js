@@ -1,11 +1,8 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
 import Rutas from "./rutas/rutas";
-
 function App() {
     return (
-        <div className="App">
-            <Navbar />
+        <div className="bg-grey h-screen">
             <Rutas />
         </div>
     );
